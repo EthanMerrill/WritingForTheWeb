@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600&display=swap');
+
+/* font-family: 'Baloo Bhaina 2', cursive; */
+
+header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    height: 10%;
+    margin: auto;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    position: fixed;
+    top: 25px;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
+    box-shadow: 0 10px 40px rgba(159, 162, 177, 0.8);
+}
+
+.subBlock {
+    display: flex;
+    justify-content: stretch;
+    width: 15%;
+    /* margin-right: ; */
+}
+
+.logoCenter {
+    text-align: center;
+    font-size: 25px;
+}
+
+.title {
+    font-size: large;
+    font: Verdana;
+}
+
+.about-and-vis-container {
+    outline: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row;
+    direction: ltr;
+    align-items: center;
+    align-content: stretch;
+}
+
+.about-container {
+    order: 1;
+    outline: 1px solid black;
+    width: 25%;
+    padding: 20px;
+    height: auto;
+}
+
+.vis-container {
+    outline: 1px solid black;
+    width: 75%;
+    height: 600px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    order: 99;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mdc-card {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.mdc-card-bio {
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+}
+
+.mdc-card:hover {
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.bioImage {
+    width: 100%;
+    border-radius: 5%;
+    display: inline-block;
+    position: relative;
+    padding: 1px;
+}
+
+.mdc-button {
+    font-family: inherit;
+    height: 40px;
+    padding: 5px;
+}
+
+.bioContainer {
+    width: 20%;
+    text-align: center;
+    margin: 0 Auto;
+}
+
+.bioImageContainer {
+    width: 100%;
+    text-align: center;
+}
