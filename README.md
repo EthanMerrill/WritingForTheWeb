@@ -6,6 +6,7 @@ A repository which contains all of my work for the WPI Humanities Practicum: Wri
 
 Static site Development. 
 TODO:
-[] Make Navbar Presentable
+[X] Make Navbar Presentable
+[X] Make bio card
 [] Add Image Slider
 [] Make Cards work using CSS Grid
