@@ -10,11 +10,10 @@ TODO:
 [X] Make Navbar Presentable
 [X] Make bio card
 [] Add Image Slider
-[] Make Cards work using CSS Grid
+[x] Make Cards work using CSS Grid
 
 ## Day 2
 
-[] Add Image Slider
-[] Make Cards work using CSS Grid
-[] Put bio Card on top of image slider
+[x] Add Image Slider
+[/] Put bio Card on top of image slider
 [] Add 1 blog post example with semantic tags
