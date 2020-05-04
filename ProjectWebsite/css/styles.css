@@ -30,7 +30,7 @@ h2,
 h3 button {
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: 'Baloo Bhaina 2', cursive;
 }
 
@@ -117,6 +117,7 @@ nav {
 .card {
     border-radius: 5px;
     background-color: white;
+    padding: 10px;
 }
 
 .mdc-card:hover {
@@ -126,11 +127,12 @@ nav {
 .mdc-card {
     text-align: center;
     padding: 10px;
+    margin: 10px;
     height: 100%;
     border-radius: 5px;
     background-color: white;
-    min-width: 300px;
-    width: 20%;
+    min-width: 250px;
+    width: 10%;
 }
 
 .mdc-card-bio {
@@ -193,6 +195,8 @@ article.card {
     flex-wrap: wrap;
     padding: 30;
     margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -325,8 +329,8 @@ footer {
     text-align: center;
     background-color: gray;
     opacity: .5;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
     height: 2.5rem;
 }
@@ -335,4 +339,20 @@ footer h3,
 footer p {
     color: black;
     opacity: 1.0;
+}
+
+.md-chip {
+    display: inline-block;
+    background: grey;
+    padding: 0 12px;
+    border-radius: 32px;
+    font-size: 13px;
+}
+
+image-container {
+    height: 50%;
+}
+
+img {
+    width: 100%;
 }

@@ -9,12 +9,12 @@ Static site Development.
 TODO:
 - [X] Make Navbar Presentable
 - [X] Make bio card
-- [] Add Image Slider
+- [ ] Add Image Slider
 - [x] Make Cards work using CSS Grid
 
 ## Day 2
 
 - [x] Add Image Slider
-- [/] Put bio Card on top of image slider
-- [] Add 1 blog post example with semantic tags
-- [] Add alt tags to images
+- [x] Put bio Card on top of image slider
+- [ ] Add 1 blog post example with semantic tags
+- [ ] Add alt tags to images

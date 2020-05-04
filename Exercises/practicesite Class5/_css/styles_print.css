@@ -1,0 +1,41 @@
+body {
+    color: #000;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 26px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: none;
+}
+
+main img {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    width: 300px;
+    /* 75% width of image */
+    height: 375px;
+    /* 75% height of image */
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+footer {
+    border-top-color: #000;
+}

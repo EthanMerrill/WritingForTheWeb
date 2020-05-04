@@ -1,0 +1,70 @@
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+}
+
+nav ul {
+    padding-left: 0px;
+    background-color: #666;
+}
+
+nav li {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 30px 5px 30px;
+}
+
+nav a:link,
+nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav a:hover,
+nav a:active {
+    color: #FFF;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+main {
+    margin-top: 60px;
+}
+
+main img {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    width: 300px;
+    /* 75% width of image */
+    height: 375px;
+    /* 75% height of image */
+}
+
+main .content {
+    padding-top: 10px;
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+footer {
+    clear: both;
+}
