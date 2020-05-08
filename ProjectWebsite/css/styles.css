@@ -92,19 +92,6 @@ nav {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
-.mdc-card:hover {
-    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
-}
-
-.mdc-card {
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: white;
-    min-width: 250px;
-    width: 10%;
-}
-
 article.card {
     width: 80%;
     padding: 3%;
@@ -148,10 +135,44 @@ article.card {
     grid-auto-flow: column;
     flex-wrap: wrap;
     padding: 10px;
-    margin: 0px;
+    margin: 10px;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.flex-container .card {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    min-width: 250px;
+    flex: 1;
+    margin: 20px;
+}
+
+.flex-container .card:hover {
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.flex-container img {
+    border-radius: 10px;
+    height: auto;
+}
+
+.flex-container h3 {
+    font-weight: normal;
+    position: relative;
+}
+
+.flex-container .cardface {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
