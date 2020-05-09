@@ -59,7 +59,7 @@ nav {
 .sub-block {
     display: flex;
     justify-content: stretch;
-    width: 8%;
+    width: 15%;
     margin: auto;
 }
 
@@ -99,6 +99,7 @@ article.card {
 
 .bioImage {
     width: 80%;
+    max-width: 300px;
     border-radius: 20px;
     display: inline-block;
     position: relative;
@@ -131,8 +132,6 @@ article.card {
 
 .flex-container {
     display: flex;
-    gap: 20px;
-    grid-auto-flow: column;
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
@@ -141,6 +140,7 @@ article.card {
     flex-direction: row;
     overflow: hidden;
     align-items: stretch;
+    width: 100%;
 }
 
 .flex-container .card {
@@ -180,16 +180,6 @@ article.card {
 
 * {
     box-sizing: border-box !important;
-}
-
-
-/* Hide the images by default */
-
-.img-contain {
-    display: block;
-    /* max-width: 100%; */
-    height: 100%;
-    object-fit: contain;
 }
 
 
@@ -306,22 +296,34 @@ footer p {
 .md-chip {
     display: inline-block;
     background: grey;
-    padding: 0 12px;
+    padding: 10px;
+    margin: 10 5px;
     border-radius: 32px;
     font-size: 13px;
+    color: white;
 }
 
-image-container {
-    height: 50%;
+.img-container {
+    display: block;
+    height: 500px;
+    object-fit: cover;
+    /* overflow: hidden; */
 }
 
 img {
     width: 100%;
-    height: auto;
+    /* height: auto; */
 }
 
 h1.logoCenter {
     font-size: 30px;
+}
+
+article img {
+    height: 30%;
+    margin: 0 auto;
+    width: auto;
+    align-self: center;
 }
 
 
@@ -331,10 +333,11 @@ h1.logoCenter {
 /* Slideshow container */
 
 .slideshow-container {
-    height: auto;
-    flex: 3;
-    margin: 0 20px;
-    min-width: 40%;
+    /* height: auto; */
+    flex-basis: 65%;
+    flex-grow: 1;
+    margin: 20px;
+    min-width: 500px;
     padding: 50px;
     overflow: hidden;
 }
@@ -345,11 +348,18 @@ h1.logoCenter {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px;
+    justify-content: space-between;
+    column-gap: 50px;
 }
 
 .about-container {
-    flex: 1;
+    flex-basis: 25%;
+    flex-grow: 1;
     text-align: center;
+    min-width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mySlides {

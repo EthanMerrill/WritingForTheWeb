@@ -1,9 +1,15 @@
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
+console.log('yesyt')
+    //when called starts the slideshow
+function autoplaySlides() {
+    setInterval(plusSlides, 5000, 1)
 
+};
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
+    console.log(slideIndex)
 }
 
 // Thumbnail image controls
