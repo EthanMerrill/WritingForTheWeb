@@ -41,7 +41,14 @@ Feedback from 1-1:
     - [x] make it autoplay
 - [x] Make Contact Me Page
 - [x] Turn Resume into seperate page (I want to have a pop out section in Javascript!)
-- [ ] Break articles up with a + sign or bullets or something
+
+
+## Day 8
+
+- [ ] collapsable content on resume page and post pages
+    - [ ] Break articles up with a + sign or bullets or something
 - [ ] Make the about this site page Normal
 - [ ] Fix bottom Grid
 - [ ] Make a Cool D3 Background
+- [ ] Make links more visible
+- [ ] Add alt tags to images
