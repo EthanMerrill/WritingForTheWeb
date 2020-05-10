@@ -47,9 +47,11 @@ Feedback from 1-1:
 
 - [x] collapsible content on resume page and post pages
     - [ ] Break articles up with a + sign or bullets or something
-- [ ] Make the about this site page Normal
+- [x] Make the about this site page Normal
 - [ ] Fix bottom Grid
 - [ ] Make a Cool D3 Background
 - [ ] Make links more visible
 - [ ] Add alt tags to images
 - [ ] make header stop doubling up
+- [ ] same header on every page
+- [ ] same footer on every page
