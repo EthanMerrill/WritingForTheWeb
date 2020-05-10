@@ -405,8 +405,10 @@ article img {
 .resume-container {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin: 60px auto;
+    width: 70%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .resume.card {
@@ -417,7 +419,7 @@ article img {
 .hidden-description {
     display: none;
     overflow: hidden;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .activities-box {
@@ -431,17 +433,6 @@ article img {
 
 .activities-box * {
     margin: 5px;
-}
-
-.collapse {
-    display: block;
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .5s cubic-bezier(0, 1, 0, 1);
-    &.show {
-        max-height: 99em;
-        transition: max-height .5s ease-in-out;
-    }
 }
 
 
@@ -489,4 +480,43 @@ block__content {
     /* font-size: 16px; */
     
     font-family: 'Baloo Bhaina 2', cursive;
+}
+.resume-page-container {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.resume-controls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 18%;
+    position: sticky;
+    top: 100px;
+    margin-top: 80px;
+    min-width: 200px;
+    margin: 20px;
+}
+@media only screen and (max-width:1120px) {
+    .resume-controls {
+        flex-direction: row;
+        width: 90%;
+        height: 8%;
+        justify-items: center;
+    }
+}
+.resume-controls * {
+    width: 90%;
+}
+.magic-contact-box {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+.magic-contact-box .far {
+    width: 1%;
+    padding: 10px
 }
