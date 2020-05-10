@@ -39,8 +39,9 @@ Feedback from 1-1:
 - [x] Make slider of a constant height
 - [ ] Fix Arrows on slideshow (again) or 
     - [x] make it autoplay
-- [ ] Make Contact Me Page
-- [ ] Turn Resume into seperate page (I want to have a pop out section in Javascript!)
+- [x] Make Contact Me Page
+- [x] Turn Resume into seperate page (I want to have a pop out section in Javascript!)
 - [ ] Break articles up with a + sign or bullets or something
 - [ ] Make the about this site page Normal
 - [ ] Fix bottom Grid
+- [ ] Make a Cool D3 Background

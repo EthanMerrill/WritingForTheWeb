@@ -1,8 +1,9 @@
-var slideIndex = 0;
+var slideIndex = 1;
 showSlides(slideIndex);
 console.log('yesyt')
     //when called starts the slideshow
 function autoplaySlides() {
+    plusSlides(1)
     setInterval(plusSlides, 5000, 1)
 
 };

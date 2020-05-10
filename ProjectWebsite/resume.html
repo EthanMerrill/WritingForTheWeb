@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/374cfc1460.js" crossorigin="anonymous"></script>
+
+    <title>Ethan Merrill</title>
+</head>
+<header>
+    <nav>
+        <a href="about_project.html" class="nav-item">About this Site</a>
+
+        <a href="#" class="nav-item">
+            <div class="logoCenter">Ethan Merrill</div>
+        </a>
+
+        <div class="nav-item sub-block ">
+            <a href="contact_me.html">Contact</a>
+            <a href="https://linkedin.com/in/ethanmerrill"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/EthanMerrill"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class='resume-container'>
+        <section class="resume card">
+            <h1>Education: </h1>
+            <div class="activities-box">
+                <i class="far fa-plus-square" id="expand-btn" data-toggle="collapse" data-target=".collapse.first" data-text="Collapse"></i>
+                <h3>Worcester Polytechnic Institute (WPI), Worcester Massachusetts</h3>
+
+            </div>
+            <p class="hidden-description collapse first" id="hidden-desc" data-toggle="collapse">Bachelor of Science in Engineering Management: Operations Concentration, Computer Science Minor May 2020 GPA: 3.34
+            </p>
+        </section>
+
+        <section class="resume card">
+            <h1>title 1</h1>
+            <p> what I did</p>
+        </section>
+
+        <section class="resume card">
+            <h1>title 1</h1>
+            <p> what I did</p>
+        </section>
+
+        <section class="resume card">
+            <h1>title 1</h1>
+            <p> what I did</p>
+        </section>
+
+    </div>
+
+</body>
+
+<button onload="console.log(triggers)" class="btn btn-primary btn__first" data-toggle="collapse" data-target=".collapse.first" data-text="Collapse">
+  Toggle First
+</button>
+<button class="btn btn-primary btn__first" data-toggle="collapse" data-target=".collapse.second" data-text="Collapse">
+  Toggle Second
+</button>
+<button class="btn btn-primary btn__first" data-toggle="collapse" data-target=".collapse" data-text="Collapse">
+  Toggle All
+</button>
+
+<div onload="console.log(triggers)" class="block collapse first">
+    <div class="block__content">
+        I'm the first content!
+    </div>
+</div>
+<div class="block collapse second">
+    <div class="block__content">
+        I'm the second content!
+    </div>
+</div>
+
+<script src="script/resume.js"></script>
