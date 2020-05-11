@@ -55,3 +55,12 @@ Feedback from 1-1:
 - [ ] make header stop doubling up
 - [ ] same header on every page
 - [ ] same footer on every page
+
+## Day 9
+
+- [x] Fix bottom Grid
+- [x] Add contact Page Background
+- [ ] Make links more visible
+- [ ] make header stop doubling up
+- [ ] same header on every page
+- [ ] same footer on every page
