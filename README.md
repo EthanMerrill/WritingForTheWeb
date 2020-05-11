@@ -62,5 +62,5 @@ Feedback from 1-1:
 - [x] Add contact Page Background
 - [ ] Make links more visible
 - [ ] make header stop doubling up
-- [ ] same header on every page
-- [ ] same footer on every page
+- [x] same header on every page
+- [x] same footer on every page

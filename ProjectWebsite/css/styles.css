@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@100;200;300;400;500;600;700&display=swap');
 
 /* font-family: 'Baloo Bhaina 2', cursive; */
 
@@ -24,7 +24,6 @@ header {
 }
 
 li,
-a,
 h1,
 h2,
 h3 button {
@@ -38,6 +37,12 @@ h1 {
     font-size: 24px;
 }
 
+a:link {
+    color: rgba(30, 95, 156, 0.712);
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 500;
+}
+
 a:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -46,6 +51,11 @@ a:hover {
 a:active {
     text-decoration: underline;
     color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(19, 83, 143);
 }
 
 nav {
