@@ -64,3 +64,4 @@ Feedback from 1-1:
 - [x] make header stop doubling up
 - [x] same header on every page
 - [x] same footer on every page
+- [ ] Add alt tags to images

@@ -125,6 +125,13 @@ article.about-project {
     padding: 3%;
 }
 
+article.card {
+    width: 80%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .bioImage {
     width: 80%;
     max-width: 300px;
@@ -349,13 +356,6 @@ h1.logoCenter {
     font-size: 30px;
 }
 
-article img {
-    max-height: 30%;
-    margin: auto;
-    width: auto;
-    align-self: center;
-}
-
 
 /* Classes for Homepage Flexbox1: */
 
@@ -451,6 +451,29 @@ article img {
     background-size: cover;
     background-repeat: no-repeat;
     background-clip: border-box;
+}
+
+.img-container {
+    display: block;
+    height: 500px;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+
+img {
+    width: 100%;
+    /* height: auto; */
+}
+
+h1.logoCenter {
+    font-size: 30px;
+}
+
+article img {
+    height: 30%;
+    margin: 0 auto;
+    width: auto;
+    align-self: center;
 }
 
 
