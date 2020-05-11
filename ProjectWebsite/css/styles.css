@@ -120,7 +120,7 @@ nav * {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
 }
 
-article.card {
+article.about-project {
     width: 80%;
     padding: 3%;
 }
@@ -400,8 +400,23 @@ article img {
 
 /* about page */
 
+.card.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.embedded-md {
+    width: 100%;
+    height: 1500px;
+}
+
 .about-project {
-    margin-top: 60px;
+    margin-top: 20px;
+}
+
+.main.card {
+    padding: 20px
 }
 
 

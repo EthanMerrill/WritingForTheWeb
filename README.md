@@ -60,7 +60,7 @@ Feedback from 1-1:
 
 - [x] Fix bottom Grid
 - [x] Add contact Page Background
-- [ ] Make links more visible
-- [ ] make header stop doubling up
+- [x] Make links more visible
+- [x] make header stop doubling up
 - [x] same header on every page
 - [x] same footer on every page
