@@ -65,3 +65,7 @@ Feedback from 1-1:
 - [x] same header on every page
 - [x] same footer on every page
 - [ ] Add alt tags to images
+
+## Day 10
+
+- [x] Fix Typos
