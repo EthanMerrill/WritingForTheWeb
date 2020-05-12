@@ -69,3 +69,28 @@ Feedback from 1-1:
 ## Day 10
 
 - [x] Fix Typos
+
+
+
+### Website Tour:
+1. Homepage
+    - Nav bar (links to linkedin and github)
+    - about me blurb
+    - photos slider (explain the backend a little bit, hidey showey stuff)
+    - project cards down below (material design cards)
+    - Show the mobile version of the site, how the cards wrap
+    - Go to the resume section
+2. Resume 
+    - Electronic version of my resume. Has the top level titles, can be expanded 
+    - sidebar controls
+    - show module version explain flexbox, css media queries
+3. Contact Page
+    - pretty simple, don't spend much time there, I already get a bunch of spam calls, I don't want my phone on here
+
+4. Back to home > ISO New England Page 
+    - Top level, scannable summary (from resume) 
+    - more detail and photo down below
+
+5. About project page
+    - pretty simple, 
+    - highlight the embed functionality
